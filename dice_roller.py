@@ -8,10 +8,10 @@ def main():
   for i in range(0,dice_rolls):
    roll=random.randint(1,dice_sides)
    if roll==1:
-    print(f'You rolled a {roll}! CRITICAL FAIL')
+    print(f'You rolled a {roll}! CRITICAL FAIL!')
    
    elif roll==dice_sides:
-   	print(f'You rolled a {roll}! CRITICAL SUCESS')
+   	print(f'You rolled a {roll}! CRITICAL SUCESS!')
   
    else:
     print(f'You rolled a {roll}')
